@@ -1,0 +1,16 @@
+{
+    "require": {
+        "monolog/monolog": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CCC\\": "ANC/src/"  
+        },
+        "files":[
+            "ANC/helper/function.php"
+        ],
+        "classmap": [
+            "ANC/provider"
+        ]
+    }
+}
